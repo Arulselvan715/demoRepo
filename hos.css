@@ -1,0 +1,28 @@
+body{
+    font-family: Arial;
+    padding: 20px;
+}
+
+.box{
+    margin-bottom: 20px;
+}
+
+input{
+    padding: 10px;
+    margin: 5px;
+}
+
+button{
+    padding: 10px;
+    cursor: pointer;
+}
+
+table{
+    width: 60%;
+    border-collapse: collapse;
+}
+
+th,td{
+    padding: 10px;
+    text-align: center;
+}
