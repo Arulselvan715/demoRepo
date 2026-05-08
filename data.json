@@ -1,0 +1,88 @@
+{
+  "products": [
+    {
+      "product_id": 1,
+      "name": "Demo-1778264125354",
+      "category": "General",
+      "quantity": 7,
+      "price": 10,
+      "supplier_id": 1,
+      "minimum_stock": 3
+    },
+    {
+      "product_id": 2,
+      "name": "Fix-1778264497694",
+      "category": "Gen",
+      "quantity": 3,
+      "price": 1,
+      "supplier_id": 2,
+      "minimum_stock": 1
+    }
+  ],
+  "suppliers": [
+    {
+      "supplier_id": 1,
+      "supplier_name": "Demo Supplier",
+      "phone": "123456",
+      "email": "demo@s.com",
+      "address": "A"
+    },
+    {
+      "supplier_id": 2,
+      "supplier_name": "Fix Supplier",
+      "phone": "111",
+      "email": "fix@s.com",
+      "address": "B"
+    },
+    {
+      "supplier_id": 3,
+      "supplier_name": "arul",
+      "phone": "9876543212",
+      "email": "arulselvan715@gmail.com",
+      "address": "asdfreert"
+    }
+  ],
+  "stock_logs": [
+    {
+      "log_id": 4,
+      "product_id": 2,
+      "product_name": "Fix-1778264497694",
+      "action": "STOCK_IN",
+      "quantity_changed": 1,
+      "transaction_note": "ok",
+      "date": "2026-05-08T18:21:37.709Z"
+    },
+    {
+      "log_id": 3,
+      "product_id": 2,
+      "product_name": "Fix-1778264497694",
+      "action": "CREATE_PRODUCT",
+      "quantity_changed": 2,
+      "transaction_note": "Initial product stock",
+      "date": "2026-05-08T18:21:37.701Z"
+    },
+    {
+      "log_id": 2,
+      "product_id": 1,
+      "product_name": "Demo-1778264125354",
+      "action": "STOCK_IN",
+      "quantity_changed": 2,
+      "transaction_note": "test",
+      "date": "2026-05-08T18:15:25.367Z"
+    },
+    {
+      "log_id": 1,
+      "product_id": 1,
+      "product_name": "Demo-1778264125354",
+      "action": "CREATE_PRODUCT",
+      "quantity_changed": 5,
+      "transaction_note": "Initial product stock",
+      "date": "2026-05-08T18:15:25.359Z"
+    }
+  ],
+  "counters": {
+    "product_id": 3,
+    "supplier_id": 4,
+    "log_id": 5
+  }
+}
